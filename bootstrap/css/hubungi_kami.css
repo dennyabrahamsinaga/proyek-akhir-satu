@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #2C3A47;
+    background-color: #dfe4ea;
+}
+
+h2 {
+    font-size: 30px;
+    color: #f5f6fa;
+    font-weight: bold;
+}
+h5:hover {
+    color: #3a5c5e;
+    cursor: default;
+}
+h3 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.mt-3 {
+    color: #f5f6fa;
+}
+
+.mt-3:hover{
+    color: #dff9fb;
+    cursor: default;
+}
+
+#team img {
+    margin-top: 26px;
+}
+
+#team i {
+    font-size: 26px;
+    color: #555555;
+}
+
+#team p {
+    font-weight: 500;
+    color: white;
+}
+
+#team .card {
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #2C3A47;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+}
+
+#team .card:hover {
+    background: rgb(39, 117, 190);
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9e9e9e;
+    cursor: default;
+}
+
+#team .card:hover h3, #team .card:hover{
+    color: #ffffff;
+}
+
+#team h5 {
+    color: white;
+}

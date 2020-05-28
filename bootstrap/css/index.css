@@ -1,0 +1,58 @@
+html,
+body,
+header,
+#intro {
+  height: 100%;
+}
+
+#intro {
+  background: url("https://images.pexels.com/photos/4434809/pexels-photo-4434809.jpeg?cs=srgb&dl=pexels-4434809.jpg&fm=jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.top-nav-collapse {
+  background-color: #24355C;
+}
+
+#title{
+  margin-top: 320px;
+  color: white;
+}
+
+#desc{
+  color: white;
+}
+
+.gotopbtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background:#74b9ff;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+
+.gotopbtn:hover{
+  background: #0984e3;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355C;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355C;
+  }
+}

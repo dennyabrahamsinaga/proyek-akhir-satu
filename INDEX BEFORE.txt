@@ -1,0 +1,30 @@
+function content_index(){
+        echo('
+        <section class="showcase">
+                <div class="container-fluid p-0">
+                    <div class="row no-gutters">
+                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url(img/bg-1.jpg);"></div>
+                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                        <h2>Pasir Putih Parparean</h2>
+                        <p class="lead mb-0">Pantai ini terletak di Desa Parparean II, Kecamatan Porsea, Kabupaten Toba Samosir. Wisatawan dapat berkunjung ke Pantai Pasir Putih Parparean dengan menempuh
+                        jarak 3 km dari pusat kota Porsea.</p>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col-lg-6 text-white showcase-img" style="background-image: url(img/bg-2.jpg);"></div>
+                    <div class="col-lg-6 my-auto showcase-text">
+                        <h2>Surga Penikmat Senja</h2>
+                        <p class="lead mb-0">Dengan pasir pantai lembut dan  mencolok membuat Pantai Pasir Putih Parparean sesaat seperti pantai yang terkenal di Indonesia, salah satunya Pantai Kuta di Bali. Hal-hal luar biasa itu menambah gairah wisatawan
+                        menikmati seluruh keindahan pantai. Momen terbaik dalam mengabadikan foto adalah menunggu hadirnya sunset.</p>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url(img/bg-3.jpg);"></div>
+                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                        <h2>Aktivitas Wisatawan</h2>
+                        <p class="lead mb-0">Sesampainya di Pantai Pasir Putih Parparean wisatawan yang berkunjung sedang menikmati berenang di pantai, mengabadikan momen bersama teman, pacar, dan keluarga melalui foto bersama dan ada juga yang melakukan <i>spearfishing<i></p>
+                    </div>
+                    </div>
+                </div>
+        </section>');
+    }
